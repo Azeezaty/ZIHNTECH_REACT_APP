@@ -59,21 +59,21 @@ function Footer() {
                         <h3 className="text-lg font-bold mb-5">
                             Contact Us
                         </h3>
-                        <div className="flex flex-col gap-4">
+                        <div className="flex flex-col gap-4 justify-content-center items-center">
                             <p className="flex items-center gap-3">
                                 <FaMapMarkerAlt />
                                 <span>Your Location</span>
                             </p>
-                            <p className="flex items-center gap-3">
+                            <p className="flex items-center gap-3 ml-14">
                                 <FaPhoneAlt />
                                 <span>Your Phone Number</span>
                             </p>
-                            <p className="flex items-center gap-3">
+                            <p className="flex items-center gap-3 ml-10">
                                 <FaEnvelope />
                                 <span>your@email.com</span>
                             </p>
                         </div>
-                        <a href="#products"className="bg-[#E2838D] text-white px-6 py-3 rounded-lg hover:bg-[#754B43] transition duration-300 mt-6">
+                        <a href="#products"className="ml-10 bg-[#E2838D] text-white px-6 py-3 rounded-lg hover:bg-[#754B43] transition duration-300 mt-6">
                             Make Your Order
                         </a>
                     </div>

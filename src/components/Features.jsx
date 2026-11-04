@@ -8,8 +8,8 @@ import {
 
 function Features() {
   return (
-    <section className="px-6 py-12">
-      <div className="grid grid-cols-2 gap-8 md:grid-cols-3 lg:grid-cols-5">
+    <section className="-mt-20 relative z-10 px-6 py-12">
+      <div className="grid grid-cols-2 gap-8 md:grid-cols-3 lg:grid-cols-5 px-20" >
 
         {/* Add to Cart */}
         <div className="flex flex-col items-center gap-3 rounded-xl bg-[#F8EDE9] p-6 text-center shadow-sm transition-all duration-300 hover:-translate-y-2 hover:shadow-lg">

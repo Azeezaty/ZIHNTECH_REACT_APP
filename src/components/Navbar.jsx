@@ -2,7 +2,7 @@ import { FaInstagram, FaWhatsapp, FaPhoneAlt, FaTag, FaShoppingCart } from 'reac
 function Navbar() {
   return (
  
-    <nav className="bg-white shadow-md">
+    <nav className="fixed top-0 left-0 w-full z-50 bg-white shadow-md">
         <div className="w-full bg-[#B5485D]/50">
         <div className="container mx-auto px-6 py-3 flex justify-between items-center">
 
@@ -28,7 +28,9 @@ function Navbar() {
             <li><a href="#services" className="text-[#754B43]/100 hover:text-black/400">Services</a></li>
             <li><a href="#contact" className="text-[#754B43]/100 hover:text-black/400">Contact</a></li>
             </ul>
-            <button className="bg-[#E2838D] text-white px-6 py-3 rounded-lg hover:bg-[#DFA0A7]/100">Add to Cart</button>
+            <button className="bg-[#E2838D] text-white px-6 py-3 rounded-lg hover:bg-[#441B0B]/100">
+            Add to Cart
+            </button>
 
         </div>
     </nav>
